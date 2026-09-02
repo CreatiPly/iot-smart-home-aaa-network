@@ -1,0 +1,8 @@
+Switch>
+Switch>en
+Switch#config
+Configuring from terminal, memory, or network [terminal]?
+Enter configuration commands, one per line.  End with CNTL/Z.
+Switch(config)#int vlan 1
+Switch(config-if)#ip address 192.168.1.1 255.255.255.0
+Switch(config-if)#no shutdown
